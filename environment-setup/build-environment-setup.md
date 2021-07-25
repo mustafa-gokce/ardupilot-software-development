@@ -31,3 +31,5 @@
 7. Update profile.
 
 `. ~/.profile`
+
+[Source](https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux)
