@@ -66,3 +66,5 @@
 3. After simulation has started, press Ctrl+C and start the simulation normally.
 
 `sim_vehicle.py --console --map`
+
+[Source](https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html)
