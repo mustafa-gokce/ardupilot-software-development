@@ -16,7 +16,7 @@
 
 `nano ardu-sim.sh`
 
-5. Type shell shebang to the first line of this script.
+5. Type shell shebang (specifies bash binary location) to the first line of this script.
 
 `#!/bin/bash`
 
