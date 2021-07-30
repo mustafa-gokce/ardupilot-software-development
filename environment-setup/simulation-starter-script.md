@@ -1,8 +1,8 @@
 # Creating simulation environment starter shell script
 
-1. Install screen package from terminal.
+1. Install screen and nano packages from terminal.
 
-`sudo apt-get install screen`
+`sudo apt-get install screen nano`
 
 2. Change directory to simulation directory.
 
@@ -28,7 +28,7 @@
 
 `screen -S proxy -d -m bash -c "mavproxy.py --master tcp:127.0.0.1:5760 --out 127.0.0.1:14550"`
 
-8. Save the script using pressing Ctrl+X, y and ENTER.
+8. Save the script by pressing Ctrl+X, y and ENTER.
 
 9. Below is the final version of the ardu-sim.sh shell script.
 
