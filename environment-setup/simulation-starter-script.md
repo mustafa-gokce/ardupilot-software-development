@@ -4,7 +4,7 @@
 
 `sudo apt-get install screen`
 
-2. Change directory to simulation directory
+2. Change directory to simulation directory.
 
 `cd && cd ardu-sim/`
 
