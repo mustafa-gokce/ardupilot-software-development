@@ -34,14 +34,42 @@
 
 `sudo chmod +x ardu-sim.sh`
 
+10. Run the script.
+
+`./ardu-sim.sh`
+
 11. Open another terminal and connect to the vehicle using MAVProxy.
 
 `mavproxy.py --master 127.0.0.1:14550`
 
-Below is the final version of the ardu-sim.sh shell script.
+12. Below is the final version of the ardu-sim.sh shell script.
 
 ```
 #!/bin/bash
 screen -S vehicle -d -m bash -c "./arducopter -S --model + --speedup 1 --defaults parameters/copter.parm -I0"
 screen -S proxy -d -m bash -c "mavproxy.py --master tcp:127.0.0.1:5760 --out 127.0.0.1:14550"`
 ```
+
+13. To retrieve simulation software binary session, do the below.
+
+`screen -r vehicle`
+
+14. To exit the simulation software binary session, press Ctrl+a, d and ENTER.
+
+15. To retrieve MAVProxy session, do the below.
+
+`screen -r proxy`
+
+16. To exit the MAVProxy session, press Ctrl+a, d and ENTER.
+
+17. To stop the simulation software binary session, do the below.
+
+`screen -S vehicle -X quit`
+
+19. To stop the MAVProxy session, do the below.
+
+`screen -S proxy -X quit`
+
+21. To stop both of them at the same time, do the below.
+
+`killall screen`
