@@ -48,6 +48,8 @@ screen -S proxy -d -m bash -c "mavproxy.py --master tcp:127.0.0.1:5760 --out 127
 
 12. Open another terminal and connect to the vehicle using MAVProxy.
 
+`cd && cd ardu-sim/logs/`
+
 `mavproxy.py --master 127.0.0.1:14550`
 
 13. To retrieve simulation software binary session, do the below.
