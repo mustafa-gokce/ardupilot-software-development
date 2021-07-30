@@ -9,6 +9,6 @@ This section includes how to install the build environment and simulation softwa
 
 4. [Starting the simulation software individually](simulation-software-individually.md)
 
-5. [Creating simulation environment starter shell script]()
+5. [Creating simulation environment starter shell script](simulation-starter-script.md)
 
 6. [Advanced simulation software use cases]()
