@@ -1,10 +1,10 @@
 # Creating simulation environment starter shell script
 
-1. Install screen package from terminal.
+1. Install screen and nano packages from terminal.
 
-`sudo apt-get install screen`
+`sudo apt-get install screen nano`
 
-2. Change directory to simulation directory
+2. Change directory to simulation directory.
 
 `cd && cd ardu-sim/`
 
@@ -16,7 +16,7 @@
 
 `nano ardu-sim.sh`
 
-5. Type shell shebang to the first line of this script.
+5. Type shell shebang (specifies bash binary location) to the first line of this script.
 
 `#!/bin/bash`
 
@@ -28,7 +28,7 @@
 
 `screen -S proxy -d -m bash -c "mavproxy.py --master tcp:127.0.0.1:5760 --out 127.0.0.1:14550"`
 
-8. Save the script using pressing Ctrl+X, y and ENTER.
+8. Save the script by pressing Ctrl+X, y and ENTER.
 
 9. Below is the final version of the ardu-sim.sh shell script.
 
@@ -47,6 +47,8 @@ screen -S proxy -d -m bash -c "mavproxy.py --master tcp:127.0.0.1:5760 --out 127
 `./ardu-sim.sh`
 
 12. Open another terminal and connect to the vehicle using MAVProxy.
+
+`cd && cd ardu-sim/logs/`
 
 `mavproxy.py --master 127.0.0.1:14550`
 
