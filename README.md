@@ -24,7 +24,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 7. [Introduction]()
 
-8. [Installing instructions]()
+8. [Installing instructions](mavproxy/installing-mavproxy.md)
 
 9. [Quickstart]()
 
@@ -82,7 +82,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 34. [Introduction]()
 
-35. [Installing instructions]()
+35. [Installing instructions](dronekit/installing-dronekit.md)
 
 36. [Connecting to the vehicle]()
 
@@ -110,7 +110,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 46. [Introduction]()
 
-47. [Installing instructions]()
+47. [Installing instructions](pymavlink/installing-pymavlink.md)
 
 48. [Connecting to the vehicle]()
 
