@@ -86,7 +86,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 36. [Connecting to the vehicle](dronekit/vehicle-connection.py)
 
-37. [Getting the vehicle states]()
+37. [Getting the vehicle states](dronekit/getting-vehicle-states.py)
 
 38. [Setting the vehicle states]()
 
