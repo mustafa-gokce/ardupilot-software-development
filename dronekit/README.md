@@ -12,14 +12,14 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 38. [Setting the vehicle states](setting-vehicle-states.py)
 
-39. [Creating vehicle state observers]()
+39. [Creating vehicle state observers](vehicle-state-observers.py)
 
-40. [Getting and setting vehicle parameters]()
+40. [Getting and setting vehicle parameters](get-set-parameters.py)
 
-41. [Taking off and landing the vehicle]()
+41. [Taking off and landing the vehicle](takeoff-land.py)
 
-42. [Flying the vehicle to a location]()
+42. [Flying the vehicle to a location](go-to-location.py)
 
-43. [Dealing with the autonomous missions]()
+43. [Dealing with the autonomous missions](mission-editing.py)
 
-44. [Calibrating the vehicle]()
+44. [Calibrating the vehicle](vehicle-calibrations.py)

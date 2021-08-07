@@ -90,17 +90,17 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 38. [Setting the vehicle states](dronekit/setting-vehicle-states.py)
 
-39. [Creating vehicle state observers]()
+39. [Creating vehicle state observers](dronekit/vehicle-state-observers.py)
 
-40. [Getting and setting vehicle parameters]()
+40. [Getting and setting vehicle parameters](dronekit/get-set-parameters.py)
 
-41. [Taking off and landing the vehicle]()
+41. [Taking off and landing the vehicle](dronekit/takeoff-land.py)
 
-42. [Flying the vehicle to a location]()
+42. [Flying the vehicle to a location](dronekit/go-to-location.py)
 
-43. [Dealing with the autonomous missions]()
+43. [Dealing with the autonomous missions](dronekit/mission-editing.py)
 
-44. [Calibrating the vehicle]()
+44. [Calibrating the vehicle](dronekit/vehicle-calibrations.py)
 
 ## Software development with Python using PyMAVLink library
 
