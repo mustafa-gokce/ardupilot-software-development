@@ -10,7 +10,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 37. [Getting the vehicle states](getting-vehicle-states.py)
 
-38. [Setting the vehicle states]()
+38. [Setting the vehicle states](setting-vehicle-states.py)
 
 39. [Creating vehicle state observers]()
 
