@@ -16,7 +16,7 @@ To set flight ground speed (in m/s)
 vehicle.groundspeed = 10.0
 
 To give takeoff command
-vehicle.simple_takeoff(10)
+vehicle.simple_takeoff(10.0)
 
 To go to a location
 vehicle.simple_goto(location=dronekit.LocationGlobalRelative(-34.364114, 149.166022, 30),
