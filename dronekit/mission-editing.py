@@ -3,7 +3,7 @@ Source: https://dronekit-python.readthedocs.io/en/latest/automodule.html
         https://mavlink.io/en/messages/common.html#mav_commands
         MAV_CMD_NAV_WAYPOINT = navigate to a waypoint
         MAV_CMD_NAV_RETURN_TO_LAUNCH = return to launch location
-        MAV_CMD_NAV_LAND = return to a location
+        MAV_CMD_NAV_LAND = land to a location
         MAV_CMD_NAV_TAKEOFF = takeoff to desired altitude
 """
 
