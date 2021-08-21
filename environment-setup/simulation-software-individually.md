@@ -1,7 +1,7 @@
 # Starting the simulation software individually
 1. Create a simulation directory in home.
 
-`mkdir -p ardu-sim/parameters`
+`cd && mkdir -p ardu-sim/parameters`
 
 2. Copy simulation software binaries and default parameters to the directory.
 
