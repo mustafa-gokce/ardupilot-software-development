@@ -14,3 +14,5 @@ To start the MAVProxy:
    2. `--master=Y,X` where X is the baud rate.
 3. `--console` opens the MAVProxy ground control station Console.
 4. `--map` opens the interactive map interface.
+
+[Source](https://ardupilot.org/mavproxy/docs/getting_started/quickstart.html)
