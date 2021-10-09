@@ -26,9 +26,9 @@ This section includes use cases of MAVProxy command line ground control station 
 
 8. [Installing instructions](mavproxy/installing-mavproxy.md)
 
-9. [Quickstart]()
+9. [Quickstart](mavproxy/mavproxy-quickstart.md)
 
-10. [Startup options]()
+10. [Startup options](mavproxy/mavproxy-startup-options.md)
 
 11. [Telemetry forwarding]()
 
