@@ -14,7 +14,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 12. [Creating MAVProxy shell scripts for automated proxy and forwarding services](automated-forwarding-services.md)
 
-13. [Arming and disarming the vehicle]()
+13. [Arming and disarming the vehicle](arm-disarm.md)
 
 14. [Waypoint manipulations]()
 
