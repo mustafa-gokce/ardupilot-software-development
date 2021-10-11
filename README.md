@@ -30,7 +30,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 10. [Startup options](mavproxy/mavproxy-startup-options.md)
 
-11. [Telemetry forwarding]()
+11. [Telemetry forwarding](mavproxy/telemetry-forwarding.md)
 
 12. [Creating MAVProxy shell scripts for automated proxy and forwarding services]()
 
