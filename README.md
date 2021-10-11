@@ -42,7 +42,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 16. [Rally point operations]()
 
-17. [Changing the flight mode of the vehicle]()
+17. [Changing the flight mode of the vehicle](mavproxy/flight-mode.md)
 
 18. [Calibrating the vehicle]()
 
