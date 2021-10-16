@@ -3,7 +3,7 @@ To start the MAVProxy:
 
 `mavproxy.py --master=X --console --map` where X is the connection string to your vehicle.
 
-1. `--master:X` specifies connection address to your vehicle. It could be one of the followings:
+1. `--master=X` specifies connection address to your vehicle. It could be one of the followings:
    1. `/dev/ttyUSBX` for Linux and `COMX` for Windows serial connections.
    2. `tcp:IP:PORT` for local TCP connections.
    3. `udp:IP:PORT` or just `IP:PORT` for local UDP connections.
