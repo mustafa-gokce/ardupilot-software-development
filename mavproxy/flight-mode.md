@@ -9,4 +9,4 @@
 5. Let's get back our vehicle to the ground.
    1. `mode RTL` or `mode LAND`
 6. Let's fly to a location in GUIDED mode.
-   1. guided -35.36217477 149.16507393 10
+   1. `guided -35.36217477 149.16507393 10`
