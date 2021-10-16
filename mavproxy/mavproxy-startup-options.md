@@ -27,7 +27,7 @@
 11. `--target-system` defines target master system ID.
 12. `--target-component` defines target master component ID.
 13. `--logfile` defines the master logfile name.
-14. `--append`-log used to append new logs to the older one.
+14. `--append-log` used to append new logs to the older one.
 15. `--nodtr` disables DTR drop on close.
 16. `--show-errors` used to show MAVLink error messages.
 17. `--speech` enables text to speech.
