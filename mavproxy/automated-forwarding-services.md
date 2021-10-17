@@ -4,7 +4,7 @@
 
 `sudo apt-get install screen nano`
 
-2. Install MAVProxy to the root user
+2. Install MAVProxy to the root user.
 
 `sudo python3 -m pip install MAVProxy`
 
