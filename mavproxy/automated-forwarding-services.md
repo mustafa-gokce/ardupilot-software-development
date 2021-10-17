@@ -8,8 +8,8 @@
 
 `mavproxy.py --master=X --out=Y` where X is source (your vehicle) and Y is the destination.
 
-4. Run `sudo nano ~/startup.sh`.
-5. Add the following:
+3. Run `sudo nano ~/startup.sh`.
+4. Add the following:
 
 ```
 #!/bin/bash
