@@ -3,11 +3,13 @@
 1. Install screen and nano packages from terminal.
 
 `sudo apt-get install screen nano`
+
 2. To forward telemetry stream using MAVProxy:
 
 `mavproxy.py --master=X --out=Y` where X is source (your vehicle) and Y is the destination.
-3. Run `sudo nano ~/startup.sh`.
-4. Add the following:
+
+4. Run `sudo nano ~/startup.sh`.
+5. Add the following:
 
 ```
 #!/bin/bash
@@ -28,12 +30,15 @@ screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --master 127.0.
    5. `-m executable_name -c "commands"` used to run an executable with arguments.
 
 7. Save the script by pressing Ctrl+X, y and ENTER.
+
 8. Give permissions to the script.
 
 `sudo chmod +x ~/startup.sh`
-8. Run the following and copy the path:
+
+9. Run the following and copy the path:
 
 `echo $(pwd)"/startup.sh"`
+
 10. To run a command at start up:
     1. Run `sudo nano /etc/rc.local`.
     2. Paste your copied text before `exit 0` like the following:
@@ -41,6 +46,7 @@ screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --master 127.0.
 `sh /home/m/startup.sh &`
 
 where `/home/m/startup.sh` is my copied full path for example.
+
 11. This is my complete `rc.local` script:
 ```
 #!/bin/sh -e
