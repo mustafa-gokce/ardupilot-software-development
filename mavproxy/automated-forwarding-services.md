@@ -4,18 +4,17 @@
 
 `sudo apt-get install screen nano`
 
-2. To forward telemetry stream using MAVProxy:
+2. Install MAVProxy to the root user
+
+`sudo python3 -m pip install MAVProxy`
+
+4. To forward telemetry stream using MAVProxy:
 
 `mavproxy.py --master=X --out=Y` where X is source (your vehicle) and Y is the destination.
 
 3. Run `sudo nano ~/startup.sh`.
-4. Add the following:
 
-```
-#!/bin/bash
-screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --force-connected --master 127.0.0.1:14550 --out 127.0.0.1:10000 --out 127.0.0.1:20000 --daemon"
-```
-5. If you are Raspberry Pi, add the following:
+4. Add the following:
 
 ```
 #!/bin/bash
