@@ -64,11 +64,11 @@ where `/home/m/startup.sh` is my copied full path for example.
 sh /home/m/startup.sh &
 exit 0
 ```
-13. Save the script by pressing Ctrl+X, y and ENTER.
-14. Make the `rc.local` executable:
+12. Save the script by pressing Ctrl+X, y and ENTER.
+13. Make the `rc.local` executable:
 `sudo chmod +x /etc/rc.local`
-15. Enable the service using `sudo systemctl enable rc-local.service`.
-16. Start the service using `sudo systemctl start rc-local.service` or `reboot`.
-17. Monitor the service using `sudo systemctl status rc-local.service`.
+14. Enable the service using `sudo systemctl enable rc-local.service`.
+15. Start the service using `sudo systemctl start rc-local.service` or `reboot`.
+16. Monitor the service using `sudo systemctl status rc-local.service`.
 
 [Source](https://ardupilot.org/mavproxy/docs/getting_started/forwarding.html)
