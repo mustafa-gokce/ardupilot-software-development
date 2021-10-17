@@ -47,5 +47,6 @@
 31. `--moddebug` is debugging messages level. Default is 0 (no debug output). A value of 3 is useful for debugging crashes or errors in MAVProxy and its modules.
 32. `--default-modules` is a comma separated list of the modules to load on startup by default.
 33. `--non-interactive` is used for not starting interactive shell.
+34. `--force-connected` is used for using master even if initial connection fails.
 
 [Source](https://ardupilot.org/mavproxy/docs/getting_started/starting.html)
