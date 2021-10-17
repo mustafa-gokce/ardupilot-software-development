@@ -20,7 +20,7 @@ screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --force-connect
 ```
 #!/bin/sh
 export LOCALAPPDATA="LOCALAPPDATA"
-screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --master 127.0.0.1:14550 --out 127.0.0.1:10000 --out 127.0.0.1:20000 --daemon"
+screen -L -Logfile proxy.log -S proxy -d -m bash -c "mavproxy.py --force-connected --master 127.0.0.1:14550 --out 127.0.0.1:10000 --out 127.0.0.1:20000 --daemon"
 ```
 6. To explain above command:
    1. `-L` log the screen session.
