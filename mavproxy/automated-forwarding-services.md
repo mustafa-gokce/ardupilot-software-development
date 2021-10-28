@@ -69,5 +69,22 @@ exit 0
 14. Enable the service using `sudo systemctl enable rc-local.service`.
 15. Start the service using `sudo systemctl start rc-local.service` or `reboot`.
 16. Monitor the service using `sudo systemctl status rc-local.service`.
+17. After this operation, if you don't want to start this script to start every boot, put `#` before `sh /home/m/startup.sh &`. So the `rc.local` will be:
+```
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+# sh /home/m/startup.sh &
+exit 0
+```
 
 [Source](https://ardupilot.org/mavproxy/docs/getting_started/forwarding.html)
