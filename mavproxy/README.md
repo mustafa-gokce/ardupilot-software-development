@@ -32,7 +32,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 21. [Graphing live data from the vehicle]()
 
-22. [Horizon module]()
+22. [Horizon module](horizon-module.md)
 
 23. [Link management]()
 
