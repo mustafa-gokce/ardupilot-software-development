@@ -18,9 +18,9 @@
       2. `X<1500` means pitch forward.
       3. `X=1500` means no pitch but still send RC Pitch Override message.
    3. `rc 3 X` overrides throttle PWM with X value.
-      4. `X>1500` means gain altitude in LOITER mode.
-      5. `X<1500` means lower altitude in LOITER mode.
-      6. `X=1500` means maintain altitude in LOITER mode.
+      1. `X>1500` means gain altitude in LOITER mode.
+      2. `X<1500` means lower altitude in LOITER mode.
+      3. `X=1500` means maintain altitude in LOITER mode.
    4. `rc 4 X` overrides yaw PWM with X value.
       1. `X>1500` means yaw clockwise.
       2. `X<1500` means yaw counter-clockwise.
