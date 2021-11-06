@@ -1,6 +1,6 @@
 # Speech Module in MAVProxy
 1. Make sure you have speechd installed in your computer
-   1. sudo apt-get install speech-dispatcher
+   1. `sudo apt-get install speech-dispatcher`
 2. Edit the file pulse audio defaults
    1. `sudo nano /etc/pulse/default.pa`
    2. Paste `load-module module-udev-detect tsched=0` at the end of the and save the file
