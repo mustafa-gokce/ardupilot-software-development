@@ -58,7 +58,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 24. [Compass calibration]()
 
-25. [Map module]()
+25. [Map module](mavproxy/map-module.md)
 
 26. [Mission editor]()
 
@@ -68,9 +68,9 @@ This section includes use cases of MAVProxy command line ground control station 
 
 29. [Motor test]()
 
-30. [Sensor reporting]()
+30. [Sensor reporting](mavproxy/sensors-module.md)
 
-31. [Text-to-speech module]()
+31. [Text-to-speech module](mavproxy/speech-module.md)
 
 32. [Time sync]()
 
