@@ -8,3 +8,5 @@
 7. Resume log downloading: `log resume`
 8. Show log download status: `log status`
 9. Abort downloading logs: `log cancel`
+
+[Source](https://ardupilot.org/mavproxy/docs/modules/log.html)
