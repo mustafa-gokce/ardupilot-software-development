@@ -54,7 +54,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 22. [Horizon module](mavproxy/horizon-module.md)
 
-23. [Link management]()
+23. [Link management](mavproxy/link-management.md)
 
 24. [Compass calibration]()
 
@@ -235,5 +235,3 @@ This section includes how to control and monitor the vehicle states of the vehic
 Documents and information about this course.
 
 105. [Disclaimer](course-documents/disclaimer.md)
-
-106. [Source codes](course-documents/source-codes.md)

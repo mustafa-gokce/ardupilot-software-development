@@ -34,7 +34,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 22. [Horizon module](horizon-module.md)
 
-23. [Link management]()
+23. [Link management](link-management.md)
 
 24. [Compass calibration]()
 
