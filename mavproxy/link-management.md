@@ -17,3 +17,5 @@
     1. Connection strings are covered before in [here](mavproxy-quickstart.md).
 13. List existing outputs: `output list`
 14. Remove an output using: `output remove X` where `X` is the output index.
+
+[Source](https://ardupilot.org/mavproxy/docs/modules/link.html)
