@@ -1,5 +1,5 @@
 # Link Management in MAVProxy
-1. Connect to the vehicle using: `mavproxy.py --master=127.0.0.1:14550`
+1. Start using: `mavproxy.py`
 2. Show link statistics: `link`
 3. Display link help screen: `link help`
 4. List existing links: `link list`
