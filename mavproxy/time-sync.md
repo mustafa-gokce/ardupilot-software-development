@@ -8,3 +8,5 @@
    2. `system_time set interval X` where `X` is interval in seconds to send `SYSTEM_TIME` message.
 6. `system_time set verbose true` to show messages on air.
 7. `system_time set verbose false` to hide messages on air.
+
+[Source](https://ardupilot.org/mavproxy/docs/modules/systemtime.html)
