@@ -26,7 +26,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 18. [Calibrating the vehicle]()
 
-19. [System commands]()
+19. [System commands](system-commands.md)
 
 20. [Log management](log-module.md)
 
