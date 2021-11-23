@@ -74,7 +74,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 32. [Time sync](mavproxy/time-sync.md)
 
-33. [Terrain data handling]()
+33. [Terrain data handling](mavproxy/terrain-module.md)
 
 ## Software development with Python using Dronekit library
 

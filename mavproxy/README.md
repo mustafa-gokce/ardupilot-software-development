@@ -54,4 +54,4 @@ This section includes use cases of MAVProxy command line ground control station 
 
 32. [Time sync](time-sync.md)
 
-33. [Terrain data handling]()
+33. [Terrain data handling](terrain-module.md)
