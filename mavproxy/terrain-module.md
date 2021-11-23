@@ -8,3 +8,5 @@ or [MAV_FRAME_GLOBAL_TERRAIN_ALT_INT](https://mavlink.io/en/messages/common.html
 4. `terrain status` is used to show requested or supplied terrain data.
 5. `terrain check` is used to query flight stack to show terrain related information of the position clicked on map.
 6. `terrain check LATITUDE LONGITUDE` is used to query flight stack to show terrain related information of the position.
+
+[Source](https://ardupilot.org/mavproxy/docs/modules/terrain.html)
