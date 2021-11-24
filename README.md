@@ -50,7 +50,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 20. [Log management](mavproxy/log-module.md)
 
-21. [Graphing live data from the vehicle]()
+21. [Graphing live data from the vehicle](mavproxy/graph-module.md)
 
 22. [Horizon module](mavproxy/horizon-module.md)
 
