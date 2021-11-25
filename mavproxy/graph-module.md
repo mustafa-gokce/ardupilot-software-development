@@ -15,7 +15,7 @@
     2. `graph (VFR_HUD.alt-584)`
 12. Let's plot relative altitude using [GLOBAL_POSITION_INT](https://mavlink.io/en/messages/common.html#GLOBAL_POSITION_INT)
     1. `graph legend (GLOBAL_POSITION_INT.relative_alt/1000.0) "Relative Altitude"`
-    2. `graph legend (GLOBAL_POSITION_INT.relative_alt/1000.0)`
+    2. `graph (GLOBAL_POSITION_INT.relative_alt/1000.0)`
 13. Let's plot [VIBRATION](https://mavlink.io/en/messages/common.html#VIBRATION) on all axes:
     1. `graph legend VIBRATION.vibration_x "Vibration on X axis"`
     2. `graph legend VIBRATION.vibration_y "Vibration on Y axis"`
