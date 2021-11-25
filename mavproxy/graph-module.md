@@ -27,7 +27,7 @@
     3. On different graphs plot:
        1. Desired roll vs. roll
        2. Desired pitch vs. pitch
-       3. Desire yaw vs. yaw
+       3. Desired yaw vs. yaw
     4. Each plots must be in float degrees.
     5. Add legend to all the graphs before plotting (like specified in 3rd step).
     6. Set time span to 10 seconds before plotting.
