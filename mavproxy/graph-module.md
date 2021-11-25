@@ -10,12 +10,12 @@
 8. Use `graph tickresolution X` to change the tick resolution to X seconds on axis-x.
 9. Mathematical operations are allowed in data.
 10. Multiple graphs are allowed.
-11. Let's plot relative altitude using [VFR_HUD](https://mavlink.io/en/messages/common.html):
-    1. `graph legend VFR_HUD.alt "Relative Altitude"`
-    2. `graph VFR_HUD.alt`
+11. Let's plot altitude using [VFR_HUD](https://mavlink.io/en/messages/common.html):
+    1. `graph legend (VFR_HUD.alt-584) "Relative Altitude"`
+    2. `graph (VFR_HUD.alt-584)`
 12. Let's plot relative altitude using [GLOBAL_POSITION_INT](https://mavlink.io/en/messages/common.html#GLOBAL_POSITION_INT)
-    1. `graph legend ((GLOBAL_POSITION_INT.alt/1000.0)-584) "Relative Altitude"`
-    2. `graph legend ((GLOBAL_POSITION_INT.alt/1000.0)-584)`
+    1. `graph legend (GLOBAL_POSITION_INT.relative_alt/1000.0) "Relative Altitude"`
+    2. `graph legend (GLOBAL_POSITION_INT.relative_alt/1000.0)`
 13. Let's plot [VIBRATION](https://mavlink.io/en/messages/common.html#VIBRATION) on all axes:
     1. `graph legend VIBRATION.vibration_x "Vibration on X axis"`
     2. `graph legend VIBRATION.vibration_y "Vibration on Y axis"`
