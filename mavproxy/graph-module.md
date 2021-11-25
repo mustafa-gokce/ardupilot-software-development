@@ -1,5 +1,5 @@
 # Graph Module in MAVProxy
-1. Graph module plots real live stream data from vehicle for monitoring vehicle state.
+1. Graph module plots live data from vehicle for monitoring vehicle state.
 2. Connect to the vehicle using `mavproxy.py --master=127.0.0.1:14550`.
 3. After starting MAVProxy `module load graph`.
 4. `graph MESSAGE_NAME.FIELD_NAME` is used to graph specific data field.
