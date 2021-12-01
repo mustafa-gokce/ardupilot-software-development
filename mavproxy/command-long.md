@@ -1,4 +1,4 @@
-# COMMAND_LONG in MAVProxy
+# "long" command in MAVProxy
 1. Long command enables user to send [MAV_CMD_*](https://mavlink.io/en/messages/common.html#mav_commands) commands to vehicle.
 2. It is used to send [COMMAND_LONG](https://mavlink.io/en/messages/common.html#COMMAND_LONG) messages to the vehicle to
 give commands during flight.

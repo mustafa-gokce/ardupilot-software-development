@@ -1,4 +1,4 @@
-# COMMAND_INT in MAVProxy
+# "command_int" command in MAVProxy
 1. Int command enables user to send [MAV_CMD_*](https://mavlink.io/en/messages/common.html#mav_commands) commands to vehicle.
 2. It is used to send [COMMAND_INT](https://mavlink.io/en/messages/common.html#COMMAND_INT) messages to the vehicle to
 give commands during flight.
