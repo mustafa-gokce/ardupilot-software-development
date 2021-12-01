@@ -16,15 +16,15 @@ This section includes use cases of MAVProxy command line ground control station 
 
 13. [Arming and disarming the vehicle](arm-disarm.md)
 
-14. [Waypoint manipulations]()
+14. [Mission editing]()
 
-15. [Geofencing operations]()
+15. [Geofencing]()
 
 16. [Rally point operations]()
 
 17. [Changing the flight mode of the vehicle](flight-mode.md)
 
-18. [Calibrating the vehicle]()
+18. ["command_int" Command](command-int.md)
 
 19. [System commands](system-commands.md)
 
@@ -36,7 +36,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 23. [Link management](link-management.md)
 
-24. [Compass calibration]()
+24. ["long" command](command-long.md)
 
 25. [Map module](map-module.md)
 
