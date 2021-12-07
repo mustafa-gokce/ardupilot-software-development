@@ -10,3 +10,4 @@ Connect to the vehicle using one of the following:
    5. `wp load FILE_NAME` sends mission item list to vehicle.
    6. `wp save FILE_NAME` saves mission item list to `FILE_NAME`.
 4. Note: 0th waypoint is home location.
+5. To start a mission (without radio) `long MAV_CMD_MISSION_START 0 0 0 0 0 0 0 0`
