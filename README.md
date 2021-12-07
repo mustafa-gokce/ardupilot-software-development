@@ -36,7 +36,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 13. [Arming and disarming the vehicle](mavproxy/arm-disarm.md)
 
-14. [Mission editing]()
+14. [Mission editing](mavproxy/mission-editing.md)
 
 15. [Geofencing]()
 
