@@ -1,6 +1,6 @@
 # Mission Editor in MAVProxy
 1. Start the MAVProxy using `mavproxy.py --master=127.0.0.1:14550 --map`.
-2. To load mission editor `module load map`.
+2. To load mission editor `module load misseditor`.
 3. Mission editor also has some useful terminal commands:
    1. `wp clear` clear mission items.
    2. `wp ftp` fetches mission item list from vehicle using FTP and saves it to `way.txt`.
