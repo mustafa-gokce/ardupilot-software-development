@@ -6,5 +6,5 @@
    2. Negative `x` means move `x` meters backward.
    3. Positive `y` means move `y` meters right.
    4. Negative `y` means move `y` meters left.
-   5. Positive `z` means gain `z` meters altitude.
-   6. Negative `z` means lose `z` meters altitude.
+   5. Positive `z` means lose `z` meters altitude.
+   6. Negative `z` means gain `z` meters altitude.
