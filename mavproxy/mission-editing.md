@@ -1,5 +1,5 @@
 # Mission Editor in MAVProxy
-1. Start the MAVProxy using `mavproxy.py --master=127.0.0.1:14550 --map`.
+1. Start the MAVProxy using `mavproxy.py --master=127.0.0.1:14550 --console --map`.
 2. To load mission editor `module load misseditor`.
 3. Mission editor also has some useful terminal commands:
    1. `wp clear` clear mission items.
