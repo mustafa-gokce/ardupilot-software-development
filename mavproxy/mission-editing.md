@@ -10,3 +10,4 @@
    6. `wp save FILE_NAME` saves mission item list to `FILE_NAME`.
 4. Note: 0th waypoint is home location.
 5. To start a mission (without radio) `long MAV_CMD_MISSION_START 0 0 0 0 0 0 0 0`
+6. After this lecture do `param set SIM_SPEEDUP 1` to come back to real time SITL speed.

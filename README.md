@@ -60,7 +60,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 25. [Map module](mavproxy/map-module.md)
 
-26. [Mission editor]()
+26. ["position" command](mavproxy/command-position.md)
 
 27. [RC calibration]()
 
