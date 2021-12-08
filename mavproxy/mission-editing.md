@@ -1,5 +1,4 @@
 # Mission Editor in MAVProxy
-Connect to the vehicle using one of the following:
 1. Start the MAVProxy using `mavproxy.py --master=127.0.0.1:14550 --map`.
 2. To load mission editor `module load map`.
 3. Mission editor also has some useful terminal commands:
