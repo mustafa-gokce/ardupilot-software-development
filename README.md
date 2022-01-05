@@ -40,7 +40,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 15. [Geofencing]()
 
-16. [Rally point operations]()
+16. [Rally point operations](mavproxy/rally-points.md)
 
 17. [Changing the flight mode of the vehicle](mavproxy/flight-mode.md)
 
