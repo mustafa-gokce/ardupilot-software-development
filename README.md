@@ -38,7 +38,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 14. [Mission editing](mavproxy/mission-editing.md)
 
-15. [Geofencing]()
+15. [Geofencing](mavproxy/geofencing.md)
 
 16. [Rally point operations](mavproxy/rally-points.md)
 
