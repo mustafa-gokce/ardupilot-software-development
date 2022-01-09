@@ -1,8 +1,8 @@
 # Geofencing in MAVProxy
 1. ArduPilot supports fences to allow your vehicle to only fly at certain areas.
 2. Start the MAVProxy using `mavproxy.py --master=127.0.0.1:14550 --console --map`.
-3. To enable fences, `param set FENCE_ENABLE 1`.
-4. To disable fences, `param set FENCE_ENABLE 0`.
+3. To enable fences, `param set FENCE_ENABLE 1` or `fence enable`.
+4. To disable fences, `param set FENCE_ENABLE 0` or `fence disable`.
 5. `FENCE_TYPE` is a bitmask parameter and used to which fence types will be used.
    1. By default, `7`, maximum altitude, circle, and polygon fences are enabled.
    2. To enable minimum altitude, do `param set FENCE_TYPE 15`, and also set minimum altitude
