@@ -112,7 +112,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 47. [Installing instructions](pymavlink/installing-pymavlink.md)
 
-48. [Connecting to the vehicle]()
+48. [Connecting to the vehicle](pymavlink/vehicle-connection.py)
 
 49. [Sending messages to vehicle]()
 
