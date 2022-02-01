@@ -114,9 +114,9 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 48. [Connecting to the vehicle](pymavlink/vehicle-connection.py)
 
-49. [Sending messages to vehicle]()
+49. [Receiving messages from vehicle](pymavlink/receive-message.py)
 
-50. [Receiving messages from vehicle](pymavlink/receive-message.py)
+50. [Sending messages to vehicle](pymavlink/send-message.py)
 
 51. [Sending message stream requests to vehicle]()
 

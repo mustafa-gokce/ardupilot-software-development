@@ -10,9 +10,9 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 48. [Connecting to the vehicle](vehicle-connection.py)
 
-49. [Sending messages to vehicle]()
+49. [Receiving messages from vehicle](receive-message.py)
 
-50. [Receiving messages from vehicle](receive-message.py)
+50. [Sending messages to vehicle](send-message.py)
 
 51. [Sending message stream requests to vehicle]()
 
