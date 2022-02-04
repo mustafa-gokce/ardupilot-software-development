@@ -124,7 +124,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 53. [Listening message streams from vehicle]()
 
-54. [Arming, disarming and checking armable status of the vehicle]()
+54. [Arming and disarming the vehicle](pymavlink/arm-disarm.py)
 
 55. [Changing the flight mode of the vehicle]()
 
