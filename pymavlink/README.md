@@ -16,7 +16,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 51. [Sending message stream requests to vehicle]()
 
-52. [Getting and setting vehicle parameters]()
+52. [Getting and setting vehicle parameters](get-set-parameter.py)
 
 53. [Listening message streams from vehicle]()
 
