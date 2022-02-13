@@ -126,7 +126,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 54. [Arming and disarming the vehicle](pymavlink/arm-disarm.py)
 
-55. [Changing the flight mode of the vehicle]()
+55. [Changing the flight mode of the vehicle](pymavlink/change-mode.py)
 
 56. [Taking off and landing the vehicle]()
 
