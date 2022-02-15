@@ -24,7 +24,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 55. [Changing the flight mode of the vehicle](change-mode.py)
 
-56. [Taking off and landing the vehicle]()
+56. [Taking off and landing the vehicle](takeoff-land.py)
 
 57. [Flying the vehicle to a location]()
 
