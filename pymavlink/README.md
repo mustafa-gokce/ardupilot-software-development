@@ -26,7 +26,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 56. [Taking off and landing the vehicle](takeoff-land.py)
 
-57. [Flying the vehicle to a location]()
+57. [Flying the vehicle to a location](goto-location.py)
 
 58. [Dealing with the autonomous missions]()
 
