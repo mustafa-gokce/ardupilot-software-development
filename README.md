@@ -184,7 +184,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 This section includes how to control and monitor the vehicle states of the vehicle by on-board using LUA programing language.
 
-82. [Introduction]()
+82. [Introduction](lua/intro.md)
 
 83. [Sample script]()
 
