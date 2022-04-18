@@ -4,7 +4,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 82. [Introduction](intro.md)
 
-83. [Sample script]()
+83. [Sample script](sample_script.lua)
 
 84. [Location data type]()
 
