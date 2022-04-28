@@ -188,13 +188,13 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 83. [Sample script](lua/sample_script.lua)
 
-84. [Location data type]()
+84. [Arming and disarming the vehicle](lua/arm_disarm.lua)
 
 85. [Vector data type]()
 
 86. [Getting attitude and position data of the vehicle]()
 
-87. [Arming and disarming the vehicle]()
+87. [Location data type]()
 
 88. [Getting battery data of the vehicle]()
 
