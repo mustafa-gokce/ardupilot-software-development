@@ -8,15 +8,15 @@ This section includes how to install the build environment and simulation softwa
 
 1. [Introduction]()
    
-2. [Setting up the build environment](environment-setup/build-environment-setup.md)
+2. [Quickstart](environment-setup/quickstart.md)
 
-3. [Setting up the simulation software](environment-setup/simulation-software-setup.md)
+3. [Setting up the build environment](environment-setup/build-environment-setup.md)
 
-4. [Starting the simulation software individually](environment-setup/simulation-software-individually.md)
+4. [Setting up the simulation software](environment-setup/simulation-software-setup.md)
 
-5. [Creating simulation environment starter shell script](environment-setup/simulation-starter-script.md)
+5. [Starting the simulation software individually](environment-setup/simulation-software-individually.md)
 
-6. [Advanced simulation software use cases]()
+6. [Creating simulation environment starter shell script](environment-setup/simulation-starter-script.md)
 
 ## MAVProxy command line ground control station
 
