@@ -68,7 +68,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 77. [Getting the vibration data from vehicle]()
 
-78. [Getting and setting the home location of the vehicle]()
+78. [Getting and setting the home location of the vehicle](home-get-set.py)
 
 79. [Playing tunes from buzzer]()
 
