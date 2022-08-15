@@ -18,7 +18,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 52. [Getting and setting vehicle parameters](get-set-parameter.py)
 
-53. [Listening message streams from vehicle]()
+53. [Sending message requests to vehicle](request-message.py)
 
 54. [Arming and disarming the vehicle](arm-disarm.py)
 
