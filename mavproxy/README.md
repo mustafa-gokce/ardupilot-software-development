@@ -42,7 +42,7 @@ This section includes use cases of MAVProxy command line ground control station 
 
 26. ["position" command](command-position.md)
 
-27. [RC calibration]()
+27. [Polygon fence](geofencing.md)
 
 28. [Relay management]()
 

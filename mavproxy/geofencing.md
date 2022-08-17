@@ -14,5 +14,6 @@
    3. Minimum altitude can also be set using `param set FENCE_ALT_MIN 10` but `param set FENCE_TYPE 15` must be done. By doing that
    vehicle can't go lower than 10 meters.
 7. By default, vehicle do RTL when breaches fence but behavior can be set using FENCE_ACTION.
+8. If you want to disable user input during landing, `param set LAND_REPOSITION 0`
 
 [Source](https://ardupilot.org/copter/docs/parameters.html#fence-parameters)
