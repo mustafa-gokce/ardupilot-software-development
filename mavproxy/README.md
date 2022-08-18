@@ -44,9 +44,9 @@ This section includes use cases of MAVProxy command line ground control station 
 
 27. [Polygon fence](geofencing.md)
 
-28. [Relay management]()
+28. [Set servo](set-servo.md)
 
-29. [Motor test]()
+29. [Set relay](set-relay.md)
 
 30. [Sensor reporting](sensors-module.md)
 
