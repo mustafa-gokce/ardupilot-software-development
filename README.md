@@ -134,7 +134,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 58. [Dealing with the autonomous missions]()
 
-59. [Calibrating the vehicle]()
+59. [Set servo](pymavlink/set-servo.py)
 
 60. [Sending system time messages to vehicle]()
 
