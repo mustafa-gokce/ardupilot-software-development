@@ -136,7 +136,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 59. [Set servo](pymavlink/set-servo.py)
 
-60. [Sending system time messages to vehicle]()
+60. [Set relay](pymavlink/set-relay.py)
 
 61. [Sending heartbeat messages to vehicle]()
 
