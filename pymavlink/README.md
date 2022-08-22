@@ -34,9 +34,9 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 60. [Set relay](set-relay.py)
 
-61. [Sending heartbeat messages to vehicle]()
+61. [Request and receive auto mode flight plan from vehicle](get-mission.py)
 
-62. [Sending and receiving mission items]()
+62. [Create and send auto mode flight plan to vehicle](set-mission.py)
 
 63. [Sending and receiving partial mission item lists]()
 

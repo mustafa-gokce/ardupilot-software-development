@@ -138,9 +138,9 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 60. [Set relay](pymavlink/set-relay.py)
 
-61. [Sending heartbeat messages to vehicle]()
+61. [Request and receive auto mode flight plan from vehicle](pymavlink/get-mission.py)
 
-62. [Sending and receiving mission items]()
+62. [Create and send auto mode flight plan to vehicle](pymavlink/set-mission.py)
 
 63. [Sending and receiving partial mission item lists]()
 
