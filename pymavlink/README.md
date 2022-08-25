@@ -40,7 +40,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 63. [Sending partial mission item list to vehicle](set-mission-partial.py)
 
-64. [Requesting a specific message from vehicle]()
+64. [Clear mission item list on vehicle](clear-mission.py)
 
 65. [Autonomous mission command item types]()
 
