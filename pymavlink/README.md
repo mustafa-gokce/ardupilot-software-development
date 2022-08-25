@@ -38,7 +38,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 62. [Create and send auto mode flight plan to vehicle](set-mission.py)
 
-63. [Sending and receiving partial mission item lists]()
+63. [Sending partial mission item list to vehicle](set-mission-partial.py)
 
 64. [Requesting a specific message from vehicle]()
 
