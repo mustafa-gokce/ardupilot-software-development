@@ -132,7 +132,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 57. [Flying the vehicle to a location](pymavlink/goto-location.py)
 
-58. [Dealing with the autonomous missions]()
+58. [Change current mission in auto flight mode](pymavlink/set-current.py)
 
 59. [Set servo](pymavlink/set-servo.py)
 
@@ -146,17 +146,17 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 64. [Clear mission item list on vehicle](pymavlink/clear-mission.py)
 
-65. [Autonomous mission command item types]()
+65. [Request and receive fence from vehicle]()
 
-66. [Diagnosing system health with system status messages]()
+66. [Create and send fence to vehicle]()
 
-67. [Reading attitude of the vehicle]()
+67. [Enable, disable, clear fence]()
 
-68. [Reading position of the vehicle]()
+68. [Request and receive rally points from vehicle]()
 
-69. [Reading HUD Messages]()
+69. [Create and send rally points to vehicle]()
 
-70. [Reading RC channel values]()
+70. [Enable, disable, clear rally]()
 
 71. [Reading servo output channel values]()
 
