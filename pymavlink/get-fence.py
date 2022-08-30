@@ -10,6 +10,7 @@
     https://mavlink.io/en/messages/common.html#PARAM_VALUE
     https://mavlink.io/en/messages/ardupilotmega.html#FENCE_FETCH_POINT
     https://mavlink.io/en/messages/ardupilotmega.html#FENCE_POINT
+    https://ardupilot.org/copter/docs/parameters.html#fence-total-fence-polygon-point-total
 """
 
 import time
