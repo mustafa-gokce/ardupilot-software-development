@@ -46,7 +46,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 66. [Create and send fence to vehicle](set-fence.py)
 
-67. [Enable and disable fence]()
+67. [Enable and disable fence](fence-enable.py)
 
 68. [Request and receive rally points from vehicle]()
 
