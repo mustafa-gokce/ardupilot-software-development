@@ -42,7 +42,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 64. [Clear mission item list on vehicle](clear-mission.py)
 
-65. [Request and receive fence from vehicle]()
+65. [Request and receive fence from vehicle](get-fence.py)
 
 66. [Create and send fence to vehicle]()
 
