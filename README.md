@@ -152,7 +152,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 67. [Enable and disable fence](pymavlink/fence-enable.py)
 
-68. [Request and receive rally points from vehicle]()
+68. [Request and receive rally points from vehicle](pymavlink/get-rally.py)
 
 69. [Create and send rally points to vehicle]()
 
