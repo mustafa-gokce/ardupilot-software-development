@@ -62,7 +62,7 @@ print("Sent takeoff command to vehicle")
 while True:
 
     # catch GLOBAL_POSITION_INT message
-    message = vehicle.recv_match(type=dialect.MAVLink_global_position_int_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_global_position_int_message.msgname,
                                  blocking=True)
 
     # convert message to dictionary
@@ -97,7 +97,7 @@ print("Sent land command to vehicle")
 while True:
 
     # catch GLOBAL_POSITION_INT message
-    message = vehicle.recv_match(type=dialect.MAVLink_global_position_int_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_global_position_int_message.msgname,
                                  blocking=True)
 
     # convert message to dictionary

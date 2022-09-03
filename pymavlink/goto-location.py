@@ -75,15 +75,15 @@ target_counter = 0
 while True:
 
     # catch a message
-    message = vehicle.recv_match(type=[dialect.MAVLink_position_target_global_int_message.name,
-                                       dialect.MAVLink_global_position_int_message.name],
+    message = vehicle.recv_match(type=[dialect.MAVLink_position_target_global_int_message.msgname,
+                                       dialect.MAVLink_global_position_int_message.msgname],
                                  blocking=True)
 
     # convert the message to dictionary
     message = message.to_dict()
 
     # get vehicle's current location
-    if message["mavpackettype"] == dialect.MAVLink_global_position_int_message.name:
+    if message["mavpackettype"] == dialect.MAVLink_global_position_int_message.msgname:
         current_location["latitude"] = message["lat"] * 1e-7
         current_location["longitude"] = message["lon"] * 1e-7
 
@@ -93,7 +93,7 @@ while True:
               "Longitude:", current_location["longitude"])
 
     # get vehicle's target location
-    if message["mavpackettype"] == dialect.MAVLink_position_target_global_int_message.name:
+    if message["mavpackettype"] == dialect.MAVLink_position_target_global_int_message.msgname:
         target_location["latitude"] = message["lat_int"] * 1e-7
         target_location["longitude"] = message["lon_int"] * 1e-7
 

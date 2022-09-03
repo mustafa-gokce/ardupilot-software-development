@@ -39,7 +39,7 @@ vehicle.mav.send(request_message_command)
 # infinite loop
 while True:
     # catch AUTOPILOT_VERSION message
-    message = vehicle.recv_match(type=dialect.MAVLink_autopilot_version_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_autopilot_version_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary

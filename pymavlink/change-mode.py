@@ -50,7 +50,7 @@ set_mode_message = dialect.MAVLink_command_long_message(
 print("Connected to system:", vehicle.target_system, ", component:", vehicle.target_component)
 
 # catch HEARTBEAT message
-message = vehicle.recv_match(type=dialect.MAVLink_heartbeat_message.name, blocking=True)
+message = vehicle.recv_match(type=dialect.MAVLink_heartbeat_message.msgname, blocking=True)
 
 # convert this message to dictionary
 message = message.to_dict()
@@ -74,7 +74,7 @@ vehicle.mav.send(set_mode_message)
 while True:
 
     # catch COMMAND_ACK message
-    message = vehicle.recv_match(type=dialect.MAVLink_command_ack_message.name, blocking=True)
+    message = vehicle.recv_match(type=dialect.MAVLink_command_ack_message.msgname, blocking=True)
 
     # convert this message to dictionary
     message = message.to_dict()
@@ -98,7 +98,7 @@ while True:
         break
 
 # catch HEARTBEAT message
-message = vehicle.recv_match(type=dialect.MAVLink_heartbeat_message.name, blocking=True)
+message = vehicle.recv_match(type=dialect.MAVLink_heartbeat_message.msgname, blocking=True)
 
 # convert this message to dictionary
 message = message.to_dict()

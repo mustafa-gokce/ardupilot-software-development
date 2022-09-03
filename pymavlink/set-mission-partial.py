@@ -59,7 +59,7 @@ while True:
     message = message.to_dict()
 
     # check this message is MISSION_REQUEST
-    if message["mavpackettype"] == dialect.MAVLink_mission_request_message.name:
+    if message["mavpackettype"] == dialect.MAVLink_mission_request_message.msgname:
 
         # check this request is for mission items
         if message["mission_type"] == dialect.MAV_MISSION_TYPE_MISSION:
@@ -88,7 +88,7 @@ while True:
             vehicle.mav.send(message)
 
     # check this message is MISSION_ACK
-    elif message["mavpackettype"] == dialect.MAVLink_mission_ack_message.name:
+    elif message["mavpackettype"] == dialect.MAVLink_mission_ack_message.msgname:
 
         # check this acknowledgement is for mission and it is accepted
         if message["mission_type"] == dialect.MAV_MISSION_TYPE_MISSION and \

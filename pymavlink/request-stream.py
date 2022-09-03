@@ -43,7 +43,7 @@ vehicle.mav.send(set_message_interval_command)
 while True:
 
     # catch EXTENDED_SYS_STATE message
-    message = vehicle.recv_match(type=dialect.MAVLink_extended_sys_state_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_extended_sys_state_message.msgname,
                                  blocking=True)
 
     # convert the received message to dictionary

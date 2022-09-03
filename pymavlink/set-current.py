@@ -38,7 +38,7 @@ vehicle.wait_heartbeat()
 print("Connected to system:", vehicle.target_system, ", component:", vehicle.target_component)
 
 # wait until receive MISSION_CURRENT message
-message = vehicle.recv_match(type=dialect.MAVLink_mission_current_message.name,
+message = vehicle.recv_match(type=dialect.MAVLink_mission_current_message.msgname,
                              blocking=True)
 
 # convert message to dictionary
@@ -67,7 +67,7 @@ message = dialect.MAVLink_command_long_message(target_system=vehicle.target_syst
 vehicle.mav.send(message)
 
 # wait until receive MISSION_CURRENT message
-message = vehicle.recv_match(type=dialect.MAVLink_mission_current_message.name,
+message = vehicle.recv_match(type=dialect.MAVLink_mission_current_message.msgname,
                              blocking=True)
 
 # convert message to dictionary

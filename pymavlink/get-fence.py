@@ -43,7 +43,7 @@ vehicle.mav.send(param_request_read_message)
 while True:
 
     # wait until the message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -75,7 +75,7 @@ for idx in range(fence_count):
     vehicle.mav.send(message)
 
     # wait until receive FENCE_POINT message
-    message = vehicle.recv_match(type=dialect.MAVLink_fence_point_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_fence_point_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary

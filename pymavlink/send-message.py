@@ -46,8 +46,8 @@ vehicle.mav.send(message)
 while True:
 
     # receive a message
-    message = vehicle.recv_match(type=[dialect.MAVLink_statustext_message.name,
-                                       dialect.MAVLink_command_ack_message.name],
+    message = vehicle.recv_match(type=[dialect.MAVLink_statustext_message.msgname,
+                                       dialect.MAVLink_command_ack_message.msgname],
                                  blocking=True)
 
     # convert message to dictionary

@@ -58,7 +58,7 @@ print("Connected to system:", vehicle.target_system, ", component:", vehicle.tar
 while True:
 
     # receive parameter value messages
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name, blocking=True)
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname, blocking=True)
 
     # convert message to dictionary
     message = message.to_dict()
@@ -79,7 +79,7 @@ vehicle.mav.send(parameter_set_message)
 while True:
 
     # receive parameter value messages
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name, blocking=True)
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname, blocking=True)
 
     # convert message to dictionary
     message = message.to_dict()

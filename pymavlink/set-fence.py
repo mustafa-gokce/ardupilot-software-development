@@ -56,7 +56,7 @@ vehicle.mav.send(message)
 while True:
 
     # wait for PARAM_VALUE message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -87,7 +87,7 @@ while True:
     vehicle.mav.send(message)
 
     # wait for PARAM_VALUE message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -121,7 +121,7 @@ while True:
     vehicle.mav.send(message)
 
     # wait for PARAM_VALUE message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -155,7 +155,7 @@ while True:
     vehicle.mav.send(message)
 
     # wait for PARAM_VALUE message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -201,7 +201,7 @@ while idx < len(fence_list):
     vehicle.mav.send(message)
 
     # wait until receive FENCE_POINT message
-    message = vehicle.recv_match(type=dialect.MAVLink_fence_point_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_fence_point_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary
@@ -232,7 +232,7 @@ while True:
     vehicle.mav.send(message)
 
     # wait for PARAM_VALUE message
-    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_param_value_message.msgname,
                                  blocking=True)
 
     # convert the message to dictionary

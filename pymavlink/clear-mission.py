@@ -38,7 +38,7 @@ message = dialect.MAVLink_mission_request_list_message(target_system=vehicle.tar
 vehicle.mav.send(message)
 
 # wait mission count message
-message = vehicle.recv_match(type=dialect.MAVLink_mission_count_message.name,
+message = vehicle.recv_match(type=dialect.MAVLink_mission_count_message.msgname,
                              blocking=True)
 
 # convert this message to dictionary
@@ -65,7 +65,7 @@ message = dialect.MAVLink_mission_request_list_message(target_system=vehicle.tar
 vehicle.mav.send(message)
 
 # wait mission count message
-message = vehicle.recv_match(type=dialect.MAVLink_mission_count_message.name,
+message = vehicle.recv_match(type=dialect.MAVLink_mission_count_message.msgname,
                              blocking=True)
 
 # convert this message to dictionary

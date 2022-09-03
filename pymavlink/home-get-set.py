@@ -65,7 +65,7 @@ vehicle.mav.send(command)
 while True:
 
     # get HOME_POSITION message
-    message = vehicle.recv_match(type=dialect.MAVLink_home_position_message.name,
+    message = vehicle.recv_match(type=dialect.MAVLink_home_position_message.msgname,
                                  blocking=True)
 
     # convert this message to dictionary

@@ -32,7 +32,7 @@ while True:
     try:
 
         # receive a message
-        message = vehicle.recv_match(type=dialect.MAVLink_system_time_message.name, blocking=True)
+        message = vehicle.recv_match(type=dialect.MAVLink_system_time_message.msgname, blocking=True)
 
         # convert received message to dictionary
         message = message.to_dict()
