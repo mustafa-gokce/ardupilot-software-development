@@ -154,7 +154,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 68. [Request and receive rally points from vehicle](pymavlink/get-rally.py)
 
-69. [Create and send rally points to vehicle]()
+69. [Create and send rally points to vehicle](pymavlink/set-rally.py)
 
 70. [Enable, disable, clear rally]()
 
