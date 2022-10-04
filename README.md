@@ -156,7 +156,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 69. [Create and send rally points to vehicle](pymavlink/set-rally.py)
 
-70. [Enable, disable, clear rally]()
+70. [RC override](pymavlink/rc-override.py)
 
 71. [Reading servo output channel values]()
 

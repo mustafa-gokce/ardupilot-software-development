@@ -1,3 +1,3 @@
-pymavlink==2.4.35
-MAVProxy==1.8.55
+pymavlink==2.4.37
+MAVProxy==1.8.59
 dronekit==2.9.2
