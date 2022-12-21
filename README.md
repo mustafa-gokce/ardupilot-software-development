@@ -158,7 +158,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 70. [RC override](pymavlink/rc-override.py)
 
-71. [Reading servo output channel values]()
+71. [Request default message streams](pymavlink/request-defaults.py)
 
 72. [Changing and reading current mission item]()
 
