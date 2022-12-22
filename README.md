@@ -160,7 +160,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 71. [Request default message streams](pymavlink/request-defaults.py)
 
-72. [Changing and reading current mission item]()
+72. [Home distance](pymavlink/distance-home.py)
 
 73. [Reading terrain data from vehicle]()
 
