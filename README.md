@@ -162,7 +162,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 72. [Home distance](pymavlink/distance-home.py)
 
-73. [Reading terrain data from vehicle]()
+73. [Set flight speed](pymavlink/set-speed.py)
 
 74. [Reading the autopilot version message]()
 
