@@ -60,7 +60,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 73. [Set flight speed](set-speed.py)
 
-74. [Reading the autopilot version message]()
+74. [Set yaw](set-yaw.py)
 
 75. [Reading wind estimating messages from vehicle]()
 
