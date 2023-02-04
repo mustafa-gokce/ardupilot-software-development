@@ -62,7 +62,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 74. [Set yaw](set-yaw.py)
 
-75. [Reading wind estimating messages from vehicle]()
+75. [Pause/resume an autonomous flight](pause-resume.py)
 
 76. [Dealing with the high latency messages]()
 
