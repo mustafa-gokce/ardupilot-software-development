@@ -64,7 +64,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 75. [Pause/resume an autonomous flight](pause-resume.py)
 
-76. [Dealing with the high latency messages]()
+76. [Reading RC inputs and servo outputs](rc-servo.py)
 
 77. [Getting the vibration data from vehicle]()
 
