@@ -170,7 +170,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 76. [Reading RC inputs and servo outputs](pymavlink/rc-servo.py)
 
-77. [Getting the vibration data from vehicle]()
+77. [Terrain checking](pymavlink/terrain-check.py)
 
 78. [Getting and setting the home location of the vehicle](pymavlink/home-get-set.py)
 
