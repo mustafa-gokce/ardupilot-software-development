@@ -27,6 +27,7 @@ vehicle.home_location = dronekit.LocationGlobal(-34.364114, 149.166022, 584)
 """
 
 import time
+import dronekit_python310_compat
 import dronekit
 
 print("Trying to connect to the vehicle...")

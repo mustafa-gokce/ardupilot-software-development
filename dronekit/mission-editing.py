@@ -8,6 +8,7 @@ Source: https://dronekit-python.readthedocs.io/en/latest/automodule.html
 """
 
 import time
+import dronekit_python310_compat
 import dronekit
 
 target_locations = ((-35.362048, 149.164489, 30),

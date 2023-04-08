@@ -20,6 +20,7 @@ For UDP connection to the vehicle (routed by MAVProxy), set ip argument of the d
     function like "<ip>:<port>", for example, "127.0.0.1:14550"
 """
 
+import dronekit_python310_compat
 import dronekit
 
 print("Trying to connect to the vehicle...")

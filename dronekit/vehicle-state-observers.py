@@ -27,6 +27,7 @@ https://mavlink.io/en/messages/common.html
 """
 
 import time
+import dronekit_python310_compat
 import dronekit
 
 

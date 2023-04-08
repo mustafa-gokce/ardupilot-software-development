@@ -5,6 +5,7 @@ python3 -m pip install geopy
 """
 
 import time
+import dronekit_python310_compat
 import dronekit
 import geopy.distance
 

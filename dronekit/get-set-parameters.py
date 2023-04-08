@@ -4,6 +4,7 @@ Source: https://dronekit-python.readthedocs.io/en/latest/automodule.html
 """
 
 import time
+import dronekit_python310_compat
 import dronekit
 
 print("Trying to connect to the vehicle...")

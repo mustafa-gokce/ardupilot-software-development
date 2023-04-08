@@ -3,6 +3,7 @@ Source: https://dronekit-python.readthedocs.io/en/latest/examples/vehicle_state.
 """
 
 import math
+import dronekit_python310_compat
 import dronekit
 
 print("Trying to connect to the vehicle...")
