@@ -174,11 +174,11 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 78. [Getting and setting the home location of the vehicle](pymavlink/home-get-set.py)
 
-79. [Playing tunes from buzzer]()
+79. [Send message from companion computer to GCS](pymavlink/send-status-text.py)
 
-80. [Reading distance sensor messages]()
+80. [Logging data to on-board data flash logs]()
 
-81. [Sending and receiving status texts]()
+81. [Interprocess communication with MAVLink]()
 
 ## On-board software development with LUA programing language
 
