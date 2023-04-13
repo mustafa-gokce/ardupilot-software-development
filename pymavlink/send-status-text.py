@@ -14,6 +14,8 @@
     companion computer acts as a source component (like the autopilot on the
     MAVLink connection) and sends messages to the GCS on the local machine.
 
+    At the ardu-sim.sh, replace the "--out 127.0.0.1:14560" with "--master 127.0.0.1:14560"
+
     https://mavlink.io/en/messages/common.html#STATUSTEXT
 """
 
