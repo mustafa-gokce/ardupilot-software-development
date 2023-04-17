@@ -2,6 +2,12 @@
 
 Source codes of Software Development for Ardupilot Powered Unmanned Systems course.
 
+## Course documents
+
+Documents and information about this course.
+
+0. [Disclaimer](course-documents/disclaimer.md) (read this first!)
+
 ## Setting up the build and simulation environment
 
 This section includes how to install the build environment and simulation software from Ardupilot source code and running the simulation with different vehicles for software development.
@@ -176,7 +182,7 @@ This section includes how to control and monitor the vehicle states in Python pr
 
 79. [Send message from companion computer to GCS](pymavlink/send-status-text.py)
 
-80. [Logging data to on-board data flash logs]()
+80. [Logging data to on-board data flash logs](pymavlink/logging-onboard.py)
 
 81. [Interprocess communication with MAVLink]()
 
@@ -229,9 +235,3 @@ This section includes how to control and monitor the vehicle states of the vehic
 103. [Getting and setting vehicle parameters]()
 
 104. [Getting button state]()
-
-## Course documents
-
-Documents and information about this course.
-
-105. [Disclaimer](course-documents/disclaimer.md)
