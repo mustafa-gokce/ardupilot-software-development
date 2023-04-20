@@ -8,9 +8,9 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 84. [Arming and disarming the vehicle](arm_disarm.lua)
 
-85. [Vector data type]()
+85. [Reading attitude of the vehicle](read_attitude.lua)
 
-86. [Getting attitude and position data of the vehicle]()
+86. [Reading position of the vehicle](read_location.lua)
 
 87. [Location data type]()
 
