@@ -10,7 +10,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 85. [Reading attitude of the vehicle](read_attitude.lua)
 
-86. [Reading position of the vehicle](read_location.lua)
+86. [Reading location of the vehicle](read_location.lua)
 
 87. [Location data type]()
 
