@@ -200,7 +200,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 86. [Reading location of the vehicle](lua/read_location.lua)
 
-87. [Location data type]()
+87. [Getting and setting vehicle flight mode](lua/get_set_mode.lua)
 
 88. [Getting battery data of the vehicle]()
 
