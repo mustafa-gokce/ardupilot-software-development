@@ -14,7 +14,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 87. [Getting and setting vehicle flight mode](get_set_mode.lua)
 
-88. [Getting battery data of the vehicle]()
+88. [Take off and land the vehicle](takeoff_land.lua)
 
 89. [Getting GPS data of the vehicle]()
 
