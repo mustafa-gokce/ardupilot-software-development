@@ -32,7 +32,9 @@ function takeoff_land()
     end
 
     -- get altitude above home
-    current_location:change_alt_frame(ALT_FRAME_ABOVE_HOME)
+    if not current_location:change_alt_frame(ALT_FRAME_ABOVE_HOME) then
+        return takeoff_land, 1000
+    end
     local current_altitude = current_location:alt() * 1e-2
 
     -- get armable, armed, mode and altitude
@@ -53,7 +55,7 @@ function takeoff_land()
         end
 
         -- arm the vehicle
-        if not is_armed then
+        if not is_armed and is_armable then
             arming:arm()
         end
 
