@@ -2,7 +2,7 @@
 
 This section includes use cases of MAVProxy command line ground control station and shell scripting.
 
-7. [Introduction]()
+7. [Introduction](introduction.md)
 
 8. [Installing instructions](installing-mavproxy.md)
 

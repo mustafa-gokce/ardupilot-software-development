@@ -1,8 +1,8 @@
 # Software development with Python using Dronekit library
 
-This section includes how to control and monitor the vehicle states in Python programming language using Dronekit library
+This section includes how to control and monitor the vehicle states in Python programming language using Dronekit library.
 
-34. [Introduction]()
+34. [Introduction](introduction.md)
 
 35. [Installing instructions](installing-dronekit.md)
 
