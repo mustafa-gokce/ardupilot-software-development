@@ -204,7 +204,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 88. [Take off and land the vehicle](lua/takeoff_land.lua)
 
-89. [Getting GPS data of the vehicle]()
+89. [Flying to a location](lua/goto_location.lua)
 
 90. [Send text message to ground control station]()
 
