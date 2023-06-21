@@ -206,7 +206,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 89. [Flying to a location](lua/goto_location.lua)
 
-90. [Send text message to ground control station]()
+90. [Location object examples](lua/location_object.lua)
 
 91. [Controlling serial LEDs]()
 
