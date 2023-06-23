@@ -20,7 +20,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 90. [Location object examples](location_object.lua)
 
-91. [Controlling serial LEDs]()
+91. [Multi location mission](multi_location_mission.lua)
 
 92. [Playing tunes from buzzer]()
 
