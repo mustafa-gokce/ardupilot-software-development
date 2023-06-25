@@ -22,28 +22,28 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 91. [Multi location mission](multi_location_mission.lua)
 
-92. [Playing tunes from buzzer]()
+92. [Getting and setting vehicle parameters](get_set_parameter.lua)
 
-93. [Getting and setting vehicle flight mode]()
+93. [Create and use new parameters]()
 
-94. [Getting flying information from vehicle]()
+94. [File read/write operations]()
 
-95. [Taking off and landing the vehicle]()
+95. [Logging system]()
 
-96. [Flying the vehicle to a location]()
+96. [Read auxiliary channel switch]()
 
-97. [Getting terrain data from vehicle]()
+97. [Multi location mission continued]()
 
-98. [Relay operations]()
+98. [Reading RC inputs and servo outputs]()
 
-99. [Servo channel operations]()
+99. [Set servo and relay]()
 
-100. [Getting RC input PWM values]()
+100. [Grid search example]()
 
-101. [Serial communications]()
+101. [Get and set home location]()
 
-102. [Getting barometer data]()
+102. [Read battery level]()
 
-103. [Getting and setting vehicle parameters]()
+103. [Get GPS time]()
 
-104. [Getting button state]()
+104. [Get firmware version]()
