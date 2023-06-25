@@ -24,7 +24,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 92. [Getting and setting vehicle parameters](get_set_parameter.lua)
 
-93. [Create and use new parameters]()
+93. [Create and use a parameter](create_parameter.lua)
 
 94. [File read/write operations]()
 
