@@ -46,4 +46,4 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 103. [Get GPS time]()
 
-104. [Get firmware version]()
+104. [Get firmware version](get_firmware.lua)
