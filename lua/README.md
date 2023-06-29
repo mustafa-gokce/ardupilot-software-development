@@ -44,6 +44,6 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 102. [Read battery level]()
 
-103. [Get GPS time]()
+103. [Get GPS time](get_time.lua) ([get_time.py](get_time.py))
 
 104. [Get firmware version](get_firmware.lua)
