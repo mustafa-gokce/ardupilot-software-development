@@ -23,15 +23,15 @@ function get_time()
     local time_week = gps:time_week(0)
     local time_week_ms = gps:time_week_ms(0):toint()
 
+    -- show GPS time on GCS
+    gcs:send_text(7, "Time week: " .. time_week)
+    gcs:send_text(7, "Time week ms: " .. time_week_ms)
+
     -- convert GPS time to UTC time
     time_week_ms = time_week_ms + GPS_TO_UTC_OFFSET
 
     -- add timezone offset to get local time
     time_week_ms = time_week_ms + TIMEZONE_OFFSET
-
-    -- show GPS time on GCS
-    gcs:send_text(7, "Time week: " .. time_week)
-    gcs:send_text(7, "Time week ms: " .. time_week_ms)
 
     -- calculate milliseconds of this day
     local time_day_ms = time_week_ms % DAY_AS_MS

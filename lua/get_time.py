@@ -1,7 +1,7 @@
 import datetime
 
 
-def gps_to_unix(gps_week, gps_week_ms, utc_offset=0):
+def gps_to_unix(gps_week, gps_week_ms, utc_offset=3):
     """
     Convert GPS week and seconds to UNIX time.
     :param gps_week: Number of weeks since EPOCH
