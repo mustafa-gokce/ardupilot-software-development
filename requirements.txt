@@ -1,5 +1,5 @@
-pymavlink==2.4.37
-MAVProxy==1.8.59
+pymavlink==2.4.39
+MAVProxy==1.8.62
 dronekit==2.9.2
 geopy==2.3.0
 getkey==0.6.5
