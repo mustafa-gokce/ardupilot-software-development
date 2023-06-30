@@ -42,7 +42,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 101. [Get and set home location]()
 
-102. [Read battery level]()
+102. [Read battery level](get_battery.lua)
 
 103. [Get GPS time](get_time.lua) ([get_time.py](get_time.py))
 
