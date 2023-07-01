@@ -216,7 +216,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 94. [File read/write operations](lua/file_operations.lua)
 
-95. [Logging system]()
+95. [Logging system](lua/log_to_bin.lua)
 
 96. [Read auxiliary channel switch]()
 
