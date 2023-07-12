@@ -218,7 +218,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 95. [Logging system](lua/log_to_bin.lua)
 
-96. [Read auxiliary channel switch]()
+96. [Read auxiliary channel switch](lua/read_aux.lua)
 
 97. [Multi location mission continued]()
 
