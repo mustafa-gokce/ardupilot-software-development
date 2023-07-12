@@ -222,7 +222,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 97. [Multi location mission continued]()
 
-98. [Reading RC inputs and servo outputs]()
+98. [Reading RC inputs](lua/read_rc.lua)
 
 99. [Set servo and relay]()
 
