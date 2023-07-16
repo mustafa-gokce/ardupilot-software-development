@@ -36,7 +36,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 98. [Reading RC inputs](read_rc.lua)
 
-99. [Set servo and relay]()
+99. [Set servo and relay](set_servo_relay.lua)
 
 100. [Grid search example]()
 
