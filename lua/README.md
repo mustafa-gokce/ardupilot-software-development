@@ -40,7 +40,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 100. [Grid search example]()
 
-101. [Get and set home location]()
+101. [Get and set home location](get_set_home.lua)
 
 102. [Read battery level](get_battery.lua)
 
