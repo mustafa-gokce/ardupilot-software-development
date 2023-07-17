@@ -4,7 +4,7 @@
 -- Observe the output with: "graph SERVO_OUTPUT_RAW.servox_raw" where x is the selected channel
 -- SERVOx_FUNCTION = 94 (Script1) and up to 16 channels can be dedicated for scripting (94 - 109, Script1 - Script16)
 -- Before doing relay operations, make sure to set RELAY_PINx (up to 6) to an appropriate value.
--- Make sure that RELAYx_PIN is set to 0 (for 0th bit of SIM_PIN_MASK, 0th SITL output pin).
+-- Make sure that RELAY_PINx is set to 0 (for 0th bit of SIM_PIN_MASK, 0th SITL output pin).
 -- For real world applications, make sure to set RELAYx_PIN to an appropriate output pin, link in below:
 -- https://ardupilot.org/copter/docs/parameters.html#relay-pin-first-relay-pin
 
@@ -27,7 +27,7 @@ function set_servo_relay()
 
     -- check if relay does exist
     if not relay:enabled(RELAY_INSTANCE) then
-        gcs:send_text(MAV_SEVERITY_DEBUG, "Relay is not enabled")
+        gcs:send_text(MAV_SEVERITY_DEBUG, "Relay instance " .. RELAY_INSTANCE .." is not enabled")
         return set_servo_relay, LOOP_DELAY_IN_MS
     end
 
@@ -66,7 +66,7 @@ function set_servo_relay()
     return set_servo_relay, LOOP_DELAY_IN_MS
 end
 
--- get servo object
+-- get servo channel number
 servo_channel = SRV_Channels:find_channel(SERVO_FUNCTION)
 
 -- start the script
