@@ -220,7 +220,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 96. [Read auxiliary channel switch](lua/read_aux.lua)
 
-97. [Multi location mission continued]()
+97. [Multi location mission continued](lua/mission_continued.lua)
 
 98. [Reading RC inputs](lua/read_rc.lua)
 
