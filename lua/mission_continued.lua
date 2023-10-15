@@ -1,10 +1,12 @@
 -- Description: This script will do multi location mission from file and controlled by switch
+-- RCx_OPTION = 300 (AUX1) and up to 8 channels can be used for scripting (300 - 307, AUX1 - AUX8)
+-- Content of MISSION.csv is:
+-- -35.36573684,149.16312254,30.0
+-- -35.36135212,149.16115359,45.0
+-- -35.36022811,149.16580334,20.0
+-- -35.36565041,149.16683329,35.0
 
 -- create a location object
----@param lat number
----@param lng number
----@param alt number
----@return Location_ud
 function createLocation(lat, lng, alt)
     local location = Location()
     location:relative_alt(true)
@@ -14,9 +16,29 @@ function createLocation(lat, lng, alt)
     return location
 end
 
+-- process the line with commas
+function split_with_comma(str)
+    local fields = {}
+    for field in str:gmatch("([^,]+)") do
+        fields[#fields + 1] = field
+    end
+    return fields
+end
+
+-- read a file line by line
+function lines_from(file_path)
+    local lines = {}
+    for line in io.lines(file_path) do
+        lines[#lines + 1] = line
+    end
+    return lines
+end
+
 -- mode enumerations, helper, constants, configurations
 local COPTER_MODES = { [0] = "STABILIZE", [4] = "GUIDED", [6] = "RTL"}
-local COPTER_MODE_STABILIZE = 0
+local FILE_PATH = "/scripts/MISSION.csv"
+local SCRIPTING_1 = 300
+local MEDIUM = 1
 local COPTER_MODE_GUIDED = 4
 local COPTER_MODE_RTL = 6
 local ALT_FRAME_ABOVE_HOME = 1
@@ -27,10 +49,7 @@ local SEVERITY = 7
 local navigation_index = 1
 
 -- target locations
-local target_locations = { { -35.36573684, 149.16312254, 30.0 },
-                           { -35.36135212, 149.16115359, 45.0 },
-                           { -35.36022811, 149.16580334, 20.0 },
-                           { -35.36565041, 149.16683329, 35.0 } }
+local target_locations = {}
 
 -- multi location mission
 function multi_location_mission()
@@ -39,7 +58,66 @@ function multi_location_mission()
     gcs:send_text(SEVERITY, "Starting the mission")
 
     -- call flight mode change step
-    return change_flight_mode, LOOP_DELAY
+    return read_mission_file, LOOP_DELAY
+end
+
+-- read mission file
+function read_mission_file()
+
+    -- read mission file line by line
+    local lines = lines_from(FILE_PATH)
+
+    -- check the file is opened successfully
+    if not lines then
+        gcs:send_text(SEVERITY, "Unable to open file: " .. FILE_PATH)
+        return read_mission_file, LOOP_DELAY
+    end
+
+    -- create target locations
+    for i = 1, #lines do
+        local fields = split_with_comma(lines[i])
+        target_locations[i] = { tonumber(fields[1]), tonumber(fields[2]), tonumber(fields[3]) }
+    end
+
+    -- check at least one waypoint exist
+    if #target_locations < 1 then
+        gcs:send_text(SEVERITY, "Mission files is empty")
+        return read_mission_file, LOOP_DELAY
+    end
+
+    -- notify user
+    gcs:send_text(SEVERITY, "Mission file read success, total waypoints: " .. #target_locations)
+
+    -- call read auxiliary channel step
+    return read_aux, LOOP_DELAY
+end
+
+-- read the auxiliary switch
+function read_aux()
+
+    -- get switch object
+    local switch_1 = rc:find_channel_for_option(SCRIPTING_1)
+
+    -- check if switch does exist
+    if not switch_1 then
+        gcs:send_text(SEVERITY, "Switch does not exist for option " .. SCRIPTING_1)
+        return read_aux, LOOP_DELAY
+    end
+
+    -- read switch value
+    local switch_1_value = switch_1:get_aux_switch_pos()
+
+    -- check switch value
+    if switch_1_value == MEDIUM then
+        gcs:send_text(SEVERITY, "Switch is MEDIUM")
+        return change_flight_mode, LOOP_DELAY
+    end
+
+    -- notify user
+    gcs:send_text(SEVERITY, "Waiting for the switch to be MEDIUM")
+
+    -- schedule the next call to this function
+    return read_aux, LOOP_DELAY
 end
 
 -- change flight mode function
