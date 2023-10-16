@@ -226,7 +226,7 @@ This section includes how to control and monitor the vehicle states of the vehic
 
 99. [Set servo and relay](lua/set_servo_relay.lua)
 
-100. [Grid search example]()
+100. [Protected function calls](lua/protected_call.lua)
 
 101. [Get and set home location](lua/get_set_home.lua)
 
