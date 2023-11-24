@@ -42,15 +42,19 @@ while True:
 
             # if the field is system boot time in milliseconds
             if field_name == "time_boot_ms":
-
                 # print field name and contained field value
                 print(field_name, message[field_name])
 
-    # bare except to catch all the exceptions
-    except:
+    # exit on Ctrl+C
+    except KeyboardInterrupt:
+        print("User interrupt received, exiting.")
+        exit(0)
 
-        # print that no message is received matches the condition
-        print("no message received from vehicle")
+    # bare except to catch all the exceptions
+    except Exception as e:
+
+        # print error message
+        print(f"Error occurred: {e}")
 
     # tiny sleep to cool down the terminal
     time.sleep(0.010)
