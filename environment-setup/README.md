@@ -3,7 +3,7 @@ This section includes how to install the build environment and simulation softwa
 
 1. [Introduction](introduction.md)
 
-2. [Quickstart](quickstart.md)
+2. [Quickstart](quickstart.md) ([Quickstart for Windows](quickstart-windows.md))
    
 3. [Setting up the build environment](build-environment-setup.md)
 
